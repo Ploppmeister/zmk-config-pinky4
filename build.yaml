@@ -22,3 +22,5 @@ include:
     shield: pinky4_left
   - board: nice_nano_v2
     shield: pinky4_right
+  - board: nice_nano_v2
+    shield: settings_reset
