@@ -7,5 +7,5 @@ config SHIELD_pinky4_LEFT
 config SHIELD_pinky4_RIGHT
     def_bool $(shields_list_contains,pinky4_right)
 	
-config SHIELD_MY_KEYBOARD_DONGLE
+config SHIELD_pinky4_DONGLE
     def_bool $(shields_list_contains,pinky4_dongle)
