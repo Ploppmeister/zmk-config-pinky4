@@ -4,14 +4,14 @@
 if SHIELD_pinky4_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "SatPad"
+    default "pinky4"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_pinky4_LEFT || SHIELD_pinky4_DONGLE
+if SHIELD_pinky4_LEFT || SHIELD_pinky4_DONGLE || SHIELD_pinky4_RIGHT
 
 config ZMK_SPLIT
     default y
